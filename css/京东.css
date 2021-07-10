@@ -1,0 +1,757 @@
+@import'京东reset.css';
+@font-face{
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/iconfont.woff2') format('woff2'),
+         url('../font/iconfont.woff') format('woff'),
+         url('../font/iconfont.ttf') format('truetype'),
+         url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 头部信息 */
+#headMessage a:hover{
+    color:rgb(241, 2, 21);
+}
+
+#headMessage ul.fl{
+    height:30px;
+}
+
+#headMessage ul.fl li{
+    width:58px;
+    height:30px;
+    
+}
+
+#headMessage ul.fl li a{
+    width:42px;
+    height:28;
+    padding:0 7px;
+    border:1px solid rgba(0, 0, 0,0);
+    line-height:28px;
+}
+
+#headMessage ul.fl li span.font{
+    display:inline-block;
+    width:24px;
+    height:16px;
+    line-height:16px;
+}
+
+#headMessage ul.fl li .iconfont{
+    display:inline-block;
+    width:10px;
+    height:15.2px;
+    margin-right:4px;
+    font-size:14px;
+    vertical-align:-1px;
+    color:rgb(241, 2, 21);
+}
+
+#headMessage ul.fr{
+    height:30px;
+    /* background-color:yellow; */
+}
+
+#headMessage ul.fr li{
+    font-size:0;
+}
+
+#headMessage ul.fr li a,
+#headMessage ul.fr li i
+{
+    font-size:12px;
+}
+
+#headMessage ul.fr li.item1{
+    /* width:127.113px; */
+    /* height:29.6px; */
+    line-height:29.6px;
+    margin-right:8px;
+}
+
+#headMessage ul.fr li.item2{
+    width:62px;
+    height:29.6px;
+    line-height:29.6px;
+}
+
+#headMessage ul.fr li.item2 a{
+    display:inline-block;
+    width:48px;
+    height:29.6px;
+    padding:0 7px;
+    line-height:29.6px;
+}
+
+#headMessage ul.fr li.item3{
+    width:77px;
+    height:30px;
+}
+
+#headMessage ul.fr li.item3 div{
+    width:48px;
+    height:28px;
+    line-height:28px;
+    padding:0 20px 0 7px;
+    border:1px solid rgba(0, 0, 0,0);
+    position:relative;
+}
+
+#headMessage ul.fr li.item3 div .iconfont{
+    width:12px;
+    height:12px;
+    line-height:12px;
+    font-size:1px;
+    position:absolute;
+    right:0px;
+    top:50%;
+    margin-top:-6px;
+}
+
+#headMessage ul.fr li.item4{
+    line-height:29.6px;
+    padding:0 7px;
+}
+
+#headMessage ul.fr li.line{
+    width:1px;
+    height:10px;
+    padding:0 5px;
+    margin:11px 5px 0 5px;
+    line-height:10px;
+    font-size:12px;
+    color:#ccc;
+}
+#headMessage ul.fr span{
+    font-size:12px;
+}
+
+/* 搜索行 */
+#header{
+    background-color:#fff;
+    height:140px;
+}
+
+#header h1 a{
+    background-image:url(../images/京东.png);
+    display:block;
+    width:190px;
+    height:120px;
+    text-indent: -9999px;
+    overflow:hidden;
+}
+
+#header .content .pic{
+    width:190px;
+    height:120px;
+}
+
+#header .content .pic img{
+    width:190px;
+}
+#header .search{
+    position:relative;
+}
+#header .search .layer{
+    height:60px;
+    /* background-color:yellow; */
+    position:relative;
+}
+
+#header .search .content{
+    position:absolute;
+    border:2px solid #e2231a;
+    width:546px;
+    height:32px;
+    top:24px;
+    left:260px; 
+    right:380px;
+}
+#header .search .content div.fl{
+    display:relative;
+}
+#header .search .content input{
+    width:425px;
+    height:32px;
+    padding:2px 44px 2px 17px;
+    border:1px solid rgba(0, 0, 0,0);
+    outline:none;
+    background-color:transparent;
+}
+
+#header .search .content span.fl{
+    position:absolute;
+    top:3px;
+    left:0;
+    line-height:28px;
+    padding-left:15px;
+    z-index:1;
+}
+
+#header .search .content span.fr{
+    position:absolute;
+    line-height:28px;
+    top:3px;
+    right:70px;
+    cursor:pointer;
+    /* 鼠标移动过去后会变成小手 */
+}
+#header .search .content button{
+    width:58px;
+    height:32px;
+    position:absolute;
+    left:488px;
+    background-color:#e1251b;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+}
+
+#header .search .content2{
+    height:36px;
+    position:absolute;
+    right:230px;
+    left:828px;
+    top:24px;
+    /* background-color:yellow; */
+    line-height:36px;
+    border:1px solid #eee;
+    text-align:center;
+}
+
+#header .search .content2 span{
+    margin-right:13px;
+    color:rgb(225, 37, 27);
+}
+
+#header .search .content2 a{
+    color:rgb(225, 37, 27);
+}
+#header .search div.hotKey{
+    font-size:0;
+    /* width:550px; */
+    height:20px;
+    position:absolute;
+    top:65px;
+    left:260px;
+    right:380px;
+    bottom:55px;
+    /* background:yellow; */
+}
+
+#header .search div.hotKey a{
+    display:inline;
+    font-size:12px;
+    margin-right:10px;
+}
+#header .search div.hotKey a:hover{
+    color:rgb(241, 2, 21);
+}
+#header .search ul{
+    height:40px;
+    text-align:center;
+    padding-top:20px;
+    position:absolute;
+    top:80px;
+    left:180px;
+    right:240px;
+    /* background-color:purple; */
+    text-align:center;
+    font-size:0;
+    /* li标签转成行级块元素的时候会有行级元素的特性，换行之间会被当做一个字符大小，所以这里要定义一个字体变为0； */
+}
+
+#header .search  ul li{
+    display:inline-block;
+    line-height:40px;
+    font-size:15px;
+    margin-left:1px;
+}
+#header .search  ul li a.c10{
+    font-weight:bold;
+}
+#header .search  ul li a{
+    margin:0 11px;
+}
+
+#header .search  ul li a:hover{
+    color:rgb(241, 2, 21);
+}
+
+/* 首屏内容 */
+
+#firstScreen{
+    height:480px;
+    margin-bottom:30px;
+}
+
+#firstScreen .content{
+    height:480px;
+    /* background-color:yellow; */
+}
+
+#firstScreen .content .nav{
+    width:190px;
+    height:470px;
+    margin-right:10px;
+}
+
+#firstScreen .content .nav .navList{
+    width:190px;
+    height:450px;
+    padding:10px 0;
+    margin-top:10px;
+    background-color:#fff;
+}
+
+#firstScreen .content .nav .navList li{
+    padding-left:18px;
+    width:172px;
+    height:25px;
+    font-size:14px;
+    line-height:25px;
+}
+
+#firstScreen .content .nav .navList li:hover{
+    background-color:#d9d9d9;
+}
+
+#firstScreen .content .nav .navList a:hover{
+    color:#c81623;
+}
+
+#firstScreen .content .image{
+    width:790px;
+    height:480px;
+    margin-right:10px;
+}
+
+#firstScreen .content .image .imageContent{
+    width:790px;
+    height:470px;
+    margin-top:10px;
+    /* background-color:#fff; */
+}
+
+#firstScreen .content .image .imageContent1{
+    position:relative;
+    margin-right:10px;
+}
+
+#firstScreen .content .imageContent1 a{
+    width:590px;
+    height:470px;
+    /* background-color:yellow; */
+}
+
+#firstScreen .content .imageContent1 ul{
+    position:absolute;
+    width:113px;
+    height:15px;
+    bottom:20px;
+    left:30px;
+}
+
+#firstScreen .content .imageContent1 li span{
+    display:inline-block;
+    width:8px;
+    height:8px;
+    border:1px solid #ffffff66;
+    background-color:#ffffff66;
+    margin-right:4px;
+    border-radius:50%;
+    vertical-align:middle;
+}
+
+#firstScreen .content .imageContent1 li span.active{
+    border:3px solid #ffffff66;
+    background-color:#fff;
+    background-clip:padding-box;
+    /* 将padding以外的背景裁剪出来，不添加background-color的属性值 */
+    width:9px;
+    height:9px;
+}
+
+#firstScreen .content .imageContent1 li span.item{
+    margin-right:0;
+}
+
+#firstScreen .content .imageContent2{
+    width:190px;
+    height:470px;
+    position:relative;
+}
+
+#firstScreen .content .imageContent2 a{
+    display:inline-block;
+    margin-bottom:10px;
+}
+
+#firstScreen .content .imageContent2 img{
+    width:190px;
+    height:150px;
+}
+
+#firstScreen .content .imageContent2 .iconfont{
+    background-color:rgba(0, 0, 0,0);
+    color:rgba(0, 0, 0,0);
+}
+
+#firstScreen .content .imageContent button{
+    position:absolute;
+    width:25px;
+    height:35px;
+    line-height:35px;
+    border:none;
+    cursor:pointer;
+    margin-top:-18px;
+    background-color:transparent;
+    font-size:20px;
+    font-family:bold;
+    background-color:rgba(0,0,0,0.1);
+    color:#fff;
+}
+
+#firstScreen .content .imageContent button.fl{
+    top:50%;
+    left:0;
+    border-radius:0 50px 50px 0;
+    /* background-color:yellow; */
+}
+
+#firstScreen .content .imageContent button.fr{
+    top:50%;
+    right:0;
+    border-radius:50px 0 0 50px;
+    font-size:16px;
+    /* background-color:yellow; */
+}
+
+#firstScreen .content .imageContent button:hover{
+    background-color:rgba(0,0,0,0.3);
+    transition:0.3s;
+    color:#fff;
+}
+
+#firstScreen .content .user{
+    width:190px;
+    height:480px;
+}
+
+#firstScreen .content .user .userContent{
+    width:190px;
+    height:470px;
+    margin-top:10px;
+    background-color:#fff;
+}
+
+#firstScreen .content .userContent .userFirst{
+    width:190px;
+    height:102px;
+    position:relative;
+    /* background-color:yellow; */
+}
+
+#firstScreen .user .userFirst .top{
+    position:absolute;
+    left:20px;
+    right:10px;
+    top:13px;
+    height:45px;
+    /* background-color:red; */
+}
+
+#firstScreen .user .userFirst .top div.clearfix{
+    width:106px;
+    height:37.6px;
+    position:absolute;
+    top:3px;
+    left:54px;
+}
+
+#firstScreen .user .userFirst .top div.fl div.fl a{
+    color:rgb(51, 51, 51);
+}
+
+#firstScreen .user .userFirst .top div.fl a:hover,
+#firstScreen .user .userFirst .top div.fl div.fl a:hover{
+    color:rgb(241, 2, 21);
+}
+
+#firstScreen .user .userFirst .top a.img1{
+    border:2px solid rgb(255, 255, 255);
+    border-radius:50%;
+}
+
+#firstScreen .user .userFirst .top a img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+
+#firstScreen .user .userFirst .bottom{
+    position:absolute;
+    bottom:0;
+    width:190px;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    font-size:0;
+}
+
+#firstScreen .user .userFirst .bottom button{
+    width:70px;
+    height:25px;
+    margin:0 5px;
+    border:none;
+    background-color:transparent;
+    border-radius:15px;
+    font-size:12px;
+    /* font-weight:bold; */
+}
+
+#firstScreen .user .userFirst .bottom button.left{
+    background-color:rgb(241, 2, 21);
+}
+
+#firstScreen .user .userFirst .bottom button.left a{
+    color:#fff;
+}
+
+#firstScreen .user .userFirst .bottom button.right{
+    background-color:#000;
+}
+
+#firstScreen .user .userFirst .bottom button.right a{
+    color:#e5d790;
+}
+
+#firstScreen .user .userFirst .bottom button:hover{
+    background-color:#DC143C;
+    transition:0.5s;
+}
+
+#firstScreen .user .userFirst .bottom button:hover a{
+    color:#fff;
+    transition:0.5s;
+}
+
+#firstScreen .content .userContent .userSecond{
+    width:190px;
+    height:130px;
+    position:relative;
+    /* background-color:yellow; */
+}
+
+#firstScreen .userSecond .content1{
+    width:190px;
+    height:20px;
+    padding-top:10px;
+    line-height:20px;
+    margin-bottom:8px;
+}
+
+#firstScreen .userSecond .content1 h3{
+    color:#333;
+    margin-left:15px;
+}
+
+#firstScreen .userSecond .content1 a{
+    color:rgb(153, 153, 153);
+}
+
+#firstScreen .userSecond .content1 a:hover{
+    color:rgb(241, 2, 21);
+}
+
+#firstScreen .userSecond .content1 span{
+    font-size:1px;
+    vertical-align:1px;
+    margin-left:5px;
+    margin-right:15px;
+}
+
+#firstScreen .userSecond .content2{
+    width:160px;
+    height:88px;
+    margin:0 15px;
+    /* background-color:yellow; */
+    position:relative;
+}
+
+#firstScreen .userSecond .content2 a{
+    display:block;
+    margin-bottom:6px;
+}
+
+#firstScreen .userSecond .content2 i{
+    display:inline-block;
+    width:35px;
+    height:16px;
+    line-height:16px;
+    text-align:center;
+    margin-right:6px;
+    background-color:rgba(225, 37, 27, 0.08);
+    color:#e1251b;
+}
+
+#firstScreen .userSecond .content2 a span{
+    position:absolute;
+    right:0;
+    width:120px;
+    line-height:16px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+#firstScreen .content .userContent .userThird{
+    width:100%;
+    height:240px;
+    box-sizing:border-box;
+    /* position:relative; */
+    /* background-color:yellow; */
+    padding:5px 0.5px;
+    table-layout:fixed;
+    /* 将表格按内容均分，在里面没有写入内容的时候，不会有效果 */
+}
+
+
+#firstScreen .content .userContent .userThird span{
+    display:block;
+    width:28px;
+    height:28px;
+    margin:0 auto;
+}
+
+#firstScreen .content .userContent .userThird span.item1{
+    background:url(../images/话费.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird span.item2{
+    background:url(../images/机票.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird span.item3{
+    background:url(../images/酒店.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird span.item4{
+    background:url(../images/游戏.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird span.item5{
+    background:url(../images/加油卡.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird span.item6{
+    background:url(../images/火车票.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird span.item7{
+    background:url(../images/众筹.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird span.item8{
+    background:url(../images/理财.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird span.item9{
+    background:url(../images/白条.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird span.item10{
+    background:url(../images/电影票.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird span.item11{
+    background:url(../images/企业购.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird span.item12{
+    background:url(../images/礼品卡.png);
+    background-size:28px 28px;
+}
+
+#firstScreen .content .userContent .userThird i{
+    display:block;
+    /* i标签是行级标签，注意转换成块级标签才能修改器宽高 */
+    width:63px;
+    height:25px;
+    border-bottom:2px solid #fff;
+    font-size:12px;
+    text-align:center;
+}
+
+#firstScreen .content .userContent .userThird a:hover{
+    color:#e1251b;
+}
+
+#firstScreen .content .userContent .userFirst::after,
+#firstScreen .content .userContent .userSecond::after,
+#firstScreen .content .userContent .userThird::after{
+    content:"";
+    width:160px;
+    height:1px;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    margin-left:-80px;
+    background-image: linear-gradient(270deg,white,#eeeeee,#eeeeee,white);
+}
+
+/* 右侧导航栏 */
+#nav{
+    position:fixed;
+    top:50%;
+    margin-top:-170px;
+    right:20px;
+    background-color:#fff;
+}
+
+#nav a{
+    display:block;
+    word-break:keep-all;
+    width:58px;
+    height:60px;
+    font-size:14px;
+    /* background-color:yellow; */
+    text-align:center;
+    /* align-items:center; */
+    box-sizing: border-box;
+    padding-top:7px;
+}
+
+#nav a span{
+    display:block;
+    color:#333;
+    font-size:14px;
+}
+
+#nav a:hover,
+#nav a:hover span{
+    background-color:rgb(200, 22, 35);
+    color:#fff;
+    transition:0.3s;
+}
+

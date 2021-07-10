@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+ul{
+    list-style:none;
+}
+
+i{
+    font-style:normal;        
+}
+
+a{
+    text-decoration:none;
+    color: #666;
+}
+
+body{
+    color: #666;
+    background-color: #e3e4e5;
+    -webkit-font-smoothing: antialiased;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+.layer{
+    width:1190px;
+    margin:0 auto;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.c9{
+    color:#999;
+}
+
+.c10{
+    color:rgb(241, 2, 21);
+}
