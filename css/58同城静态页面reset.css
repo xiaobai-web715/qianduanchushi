@@ -1,0 +1,56 @@
+div,a,ul,li,img,span,p,i,strong,input,button,h2,h1,h3,h6,body,form,tr,td{
+    padding : 0;
+    margin : 0;
+}
+
+body{
+    background-color:rgb(248, 248, 248);
+}
+
+a{
+    text-decoration:none;
+    color:#3c3c3c;
+}
+
+ul,h1,h2,h3 ,li{
+    list-style:none;
+}
+
+i,strong{
+    font-style:normal;
+}
+
+button{
+    border:none;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+.layer{
+    width:1190px;
+    margin:0 auto;
+}
+
+.clearfix::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+
+.fl{
+    float:left;
+}
+
+.fr{
+    float:right;
+}
+
+.c1{
+    color:#FF552E;
+}
+
+.c2{
+    color:#0E8ED8;
+}
